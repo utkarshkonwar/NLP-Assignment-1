@@ -1,0 +1,23 @@
+1. In a print statement, what happens if you leave out one of the parentheses, or both?
+
+Syntactical Error
+
+2. If you are trying to print a string, what happens if you leave out one of the quotation marks, or both?
+
+a syntax error occurs because it reads one but fails to find the matching one to complete the string.
+
+3. You can use a minus sign to make a negative number like -2. What happens if you put a plus sign before a number? What about 2++2?
+
+
+The presence of a plus sign before a number does not alter its value. In the expression "2++2", the two plus signs adjacent to each other are interpreted as indicating a positive number followed by another positive number.
+
+4. In math notation, leading zeros are okay, as in 02. What happens if you try this in Python?
+
+
+Python attempts to interpret numbers with leading zeros as octal values but decides to convert them to decimal values instead. This can lead to issues with numbers containing an 8 or 9, as octal representation does not include these digits; octal 010 is equivalent to decimal 8, and octal 011 is equivalent to decimal 9.
+
+5. What happens if you have two values with no operator between them?
+
+
+Typing in two values with no operator and a space between them results in a syntax error. This occurs because without an operator, the interpreter lacks a clear directive on the action it is supposed to perform.
+
