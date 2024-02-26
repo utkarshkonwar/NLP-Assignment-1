@@ -1,0 +1,46 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[1]:
+
+
+sent1=['jill','bill','freddy','jakob']
+
+
+# In[2]:
+
+
+sent1
+
+
+# In[3]:
+
+
+sent1.insert(0,'Timothy')
+
+
+# In[4]:
+
+
+sent1.insert(3,'Yusuf')
+
+
+# In[5]:
+
+
+sent1
+
+
+# In[6]:
+
+
+user = int(input('Enter Number'))
+sent1.insert(user,'xyz')
+sent1
+
+
+# In[ ]:
+
+
+
+
